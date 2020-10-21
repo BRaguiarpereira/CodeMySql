@@ -1,0 +1,4 @@
+CREATE VIEW [MostrandoTodasFuncionarias] AS
+SELECT NOME_EMP
+FROM EMPREGADO
+WHERE SEXO_EMP = 'f';
